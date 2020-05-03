@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shop_signup">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/serveicon" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="매장 정보를 입력하십시오" />
+
+
+        <EditText
+            android:id="@+id/shop_name"
+            android:layout_width="283dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/insertblock"
+            android:ems="10"
+            android:hint="매장명"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/shop_addr"
+            android:layout_width="283dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/insertblock"
+            android:ems="10"
+            android:hint="매장 주소"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/shop_phone"
+            android:layout_width="283dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/insertblock"
+            android:ems="10"
+            android:hint="매장 연락처"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="10dp"
+        android:text="매장 유형  "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/china_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중식" />
+
+        <RadioButton
+            android:id="@+id/japan_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일식" />
+
+        <RadioButton
+            android:id="@+id/korea_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한식" />
+
+    </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/shop_join_btn"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:background="@drawable/regi"
+        android:paddingBottom="5dp"
+        android:stateListAnimator="@null"
+        android:text="등록 "
+        android:textSize="17dp" />
+
+
+</LinearLayout>
