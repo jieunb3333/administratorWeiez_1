@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/매장관리_정보"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/returnbutton1"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@null"
+
+        android:stateListAnimator="@null"
+        android:text="<"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:fontFamily="@font/bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="84dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/demiLight"
+        android:text="매장 관리"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="421dp"
+        android:layout_height="493dp"
+        android:layout_marginTop="9dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="INFORMATION"
+            android:gravity="center"
+            android:fontFamily="@font/bold"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="매장 정보를 정확히 입력하세요."
+            android:gravity="center"
+            android:fontFamily="@font/regular"
+            android:textSize="17dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="30dp"
+        >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingRight="-5dp"
+                android:text="매장명"
+                android:textSize="17dp"
+                android:fontFamily="@font/demiLight"
+                android:gravity="center"
+
+
+
+                />
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingBottom="5dp"
+                android:background="@drawable/shopinputback"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:textColorHighlight="@color/backgroundintro" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:paddingHorizontal="30dp"
+            >oundintro"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingRight="-5dp"
+                android:text="위치"
+                android:textSize="17dp"
+                android:fontFamily="@font/demiLight"
+                android:gravity="center"
+
+
+
+                />
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingBottom="5dp"
+                android:background="@drawable/shopinputback"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:selectAllOnFocus="true"
+                android:textColorHighlight="@color/backgroundintro" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:paddingHorizontal="30dp"
+            >oundintro"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingRight="-5dp"
+                android:text="연락처"
+                android:textSize="17dp"
+                android:fontFamily="@font/demiLight"
+                android:gravity="center"
+
+
+
+                />
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingBottom="5dp"
+                android:background="@drawable/shopinputback"
+                android:ems="10"
+                android:inputType="phone"
+                android:selectAllOnFocus="true"
+                android:textColorHighlight="@color/backgroundintro" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:paddingHorizontal="30dp"
+            >oundintro"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingRight="-5dp"
+                android:text="영업시간"
+                android:textSize="17dp"
+                android:fontFamily="@font/demiLight"
+                android:gravity="center"
+
+
+
+                />
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingBottom="5dp"
+                android:background="@drawable/shopinputback"
+                android:ems="10"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                android:textColorHighlight="@color/backgroundintro" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:paddingHorizontal="30dp"
+            >oundintro"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingRight="-5dp"
+                android:text="매장소개"
+                android:textSize="17dp"
+                android:fontFamily="@font/demiLight"
+                android:gravity="center"
+
+
+
+                />
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingBottom="5dp"
+                android:background="@drawable/shopinputback"
+                android:ems="10"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                android:textColorHighlight="@color/backgroundintro" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
