@@ -122,6 +122,7 @@
             android:layout_marginHorizontal="20dp"
             android:paddingHorizontal="50dp"
             android:paddingVertical="10dp"
+            android:layout_marginTop="15dp"
             android:gravity="top"
             android:background="@drawable/reviewmanager"
             android:ems="100"

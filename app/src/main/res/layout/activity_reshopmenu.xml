@@ -66,13 +66,14 @@
                 android:text="MENU"
 
                 android:textSize="17dp"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/menuinsert"
-                android:text="메뉴추가"
-                android:fontFamily="@font/bold"/>
+                android:fontFamily="@font/bold"
+                android:text="메뉴추가" />
 
 
         </LinearLayout>
