@@ -172,7 +172,7 @@
                         android:orientation="horizontal"
                         android:weightSum="10"
                         android:layout_marginHorizontal="30dp"
-                        android:background="@drawable/radius"
+                        android:background="@drawable/shadow"
                         android:gravity="center">
                         <TextView
                             android:id="@+id/waiting_num"

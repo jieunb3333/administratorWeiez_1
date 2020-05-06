@@ -112,9 +112,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="62dp"
                     android:layout_marginHorizontal="30dp"
-                    android:orientation="horizontal"
                     android:gravity="center"
-                    android:weightSum="10">
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:background="@drawable/shadow">
 
                     <TextView
                         android:id="@+id/menu_id"
@@ -139,12 +140,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
+                        android:gravity="center"
                         android:showText="true"
+                        android:switchPadding="0dp"
                         android:textOff="품절"
                         android:textOn="판매"
                         android:thumbTextPadding="0dp"
-                        android:switchPadding="0dp"
-                        android:gravity="center"
 
                         />
 
