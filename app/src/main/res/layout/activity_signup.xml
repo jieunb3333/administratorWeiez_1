@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="130dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -26,13 +26,14 @@
             android:id="@+id/textView4"
             android:layout_width="151dp"
             android:layout_height="wrap_content"
-            android:text="개인 정보를 입력하십시오" />
+            android:text="개인 정보를 입력하십시오"
+            android:fontFamily="@font/medium"/>
 
         <EditText
             android:id="@+id/sign_up_name"
             android:layout_width="283dp"
             android:layout_height="33dp"
-            android:layout_marginTop="88dp"
+            android:layout_marginTop="100dp"
             android:background="@drawable/insertblock"
             android:ems="10"
             android:hint="이름"
@@ -45,7 +46,7 @@
             android:id="@+id/sign_up_id"
             android:layout_width="283dp"
             android:layout_height="33dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/insertblock"
             android:ems="10"
             android:hint="ID"
@@ -58,7 +59,7 @@
             android:id="@+id/sign_up_phone"
             android:layout_width="283dp"
             android:layout_height="33dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/insertblock"
             android:ems="10"
             android:hint="연락처"
@@ -71,7 +72,7 @@
             android:id="@+id/sign_up_password"
             android:layout_width="283dp"
             android:layout_height="33dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/insertblock"
             android:ems="10"
             android:hint="password"
@@ -83,7 +84,7 @@
     </LinearLayout>
 
     <Button
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="80dp"
         android:layout_marginLeft="210dp"
         android:id="@+id/sign_up_btn2"
         android:layout_width="wrap_content"
@@ -92,7 +93,8 @@
         android:paddingBottom="5dp"
         android:stateListAnimator="@null"
         android:text="회원 가입 "
-        android:textSize="17dp" />
+        android:textSize="17dp"
+        android:fontFamily="@font/regular"/>
 
 
 </LinearLayout>

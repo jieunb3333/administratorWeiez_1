@@ -30,7 +30,7 @@
         android:layout_width="84dp"
         android:layout_height="28dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/demiLight"
+        android:fontFamily="@font/demilight"
         android:text="매장 관리"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="429dp"
-        android:layout_height="540dp"
+        android:layout_height="600dp"
         android:layout_marginTop="9dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +60,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="20dp"
                 android:layout_weight="9"
-                android:fontFamily="@font/black"
+                android:fontFamily="@font/bold"
                 android:gravity="right"
                 android:paddingRight="50dp"
                 android:text="MENU"
@@ -137,7 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:fontFamily="@font/demiLight"
+                    android:fontFamily="@font/demilight"
                     android:gravity="center"
                     android:text="01" />
 
@@ -147,7 +147,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="7"
-                    android:fontFamily="@font/demiLight"
+                    android:fontFamily="@font/demilight"
                     android:gravity="center"
                     android:text="menu" />
 
@@ -172,7 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:fontFamily="@font/demiLight"
+                    android:fontFamily="@font/demilight"
                     android:gravity="center"
                     android:text="01" />
 
@@ -182,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="7"
-                    android:fontFamily="@font/demiLight"
+                    android:fontFamily="@font/demilight"
                     android:gravity="center"
                     android:text="menu" />
 
@@ -207,7 +207,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:fontFamily="@font/demiLight"
+                    android:fontFamily="@font/demilight"
                     android:gravity="center"
                     android:text="01" />
 
@@ -217,7 +217,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="7"
-                    android:fontFamily="@font/demiLight"
+                    android:fontFamily="@font/demilight"
                     android:gravity="center"
                     android:text="menu" />
 

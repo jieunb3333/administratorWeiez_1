@@ -29,6 +29,7 @@
         android:layout_height="wrap_content"
         android:text="관리자"
         android:textColor="@color/carbongray"
+        android:fontFamily="@font/black"
         android:textSize="20sp" />
 
 
