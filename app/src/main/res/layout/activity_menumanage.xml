@@ -30,7 +30,7 @@
         android:layout_width="84dp"
         android:layout_height="28dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/demilight"
+        android:fontFamily="@font/regular"
         android:text="메뉴 관리"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

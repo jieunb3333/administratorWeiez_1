@@ -30,7 +30,7 @@
         android:layout_width="84dp"
         android:layout_height="28dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/demilight"
+        android:fontFamily="@font/regular"
         android:text="매장 관리"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:fontFamily="@font/demilight"
+                    android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:text="01" />
 
@@ -147,7 +147,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="7"
-                    android:fontFamily="@font/demilight"
+                    android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:text="menu" />
 
@@ -172,7 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:fontFamily="@font/demilight"
+                    android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:text="01" />
 
@@ -182,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="7"
-                    android:fontFamily="@font/demilight"
+                    android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:text="menu" />
 
@@ -207,7 +207,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:fontFamily="@font/demilight"
+                    android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:text="01" />
 
@@ -217,7 +217,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="7"
-                    android:fontFamily="@font/demilight"
+                    android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:text="menu" />
 

@@ -30,7 +30,7 @@
         android:layout_width="100dp"
         android:layout_height="28dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/demilight"
+        android:fontFamily="@font/regular"
         android:text="대기자 관리"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +74,7 @@
                 android:paddingLeft="30dp"
                 android:background="@drawable/watchicon"
                 android:layout_weight="1"
-                android:fontFamily="@font/demilight"
+                android:fontFamily="@font/regular"
                 android:text="  대기자 > "
 
                 android:textSize="17dp"/>
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="8"
                 android:text="5"
-                android:fontFamily="@font/demilight"
+                android:fontFamily="@font/regular"
                 android:textSize="17dp"/>
 
             <Button
@@ -115,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/demilight"
+                android:fontFamily="@font/regular"
                 android:gravity="center"
                 android:text="No." />
 
@@ -125,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="2"
-                android:fontFamily="@font/demilight"
+                android:fontFamily="@font/regular"
                 android:gravity="center"
                 android:text="이름" />
 
@@ -134,7 +134,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="5"
-                android:fontFamily="@font/demilight"
+                android:fontFamily="@font/regular"
                 android:gravity="center"
                 android:text="연락처" />
             <TextView
@@ -142,7 +142,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/demilight"
+                android:fontFamily="@font/regular"
                 android:gravity="center"
                 android:text="인원" />
             <TextView
@@ -150,7 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/demilight"
+                android:fontFamily="@font/regular"
                 android:gravity="center"
                 android:text="대기시간" />
         </LinearLayout>
@@ -183,7 +183,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:fontFamily="@font/demilight"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="1" />
 
@@ -193,7 +193,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
                             android:layout_weight="2"
-                            android:fontFamily="@font/demilight"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="박지은" />
 
@@ -202,7 +202,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="3.5"
-                            android:fontFamily="@font/demilight"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="01023811172" />
                         <TextView
@@ -210,7 +210,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:fontFamily="@font/demilight"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="3" />
                         <TextView
@@ -218,7 +218,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:fontFamily="@font/demilight"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="10분" />
                     </LinearLayout>
@@ -233,14 +233,14 @@
                             android:layout_height="wrap_content"
                             android:background="@drawable/doneicon"
                             android:text="입장 완료"
-                            android:fontFamily="@font/demilight"
+                            android:fontFamily="@font/regular"
                             android:paddingBottom="10dp" />
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/callicon"
                             android:text="입장 요청"
-                            android:fontFamily="@font/demilight"
+                            android:fontFamily="@font/regular"
                             android:paddingBottom="10dp" />
 
                     </LinearLayout>
