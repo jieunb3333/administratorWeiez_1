@@ -7,23 +7,19 @@
     android:background="@drawable/shopmanage_info"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/returnbutton1"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="4dp"
-        android:background="@null"
 
+    <Button
+        android:id="@+id/returnbutton9"
+        android:layout_width="13dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/backbutton"
         android:stateListAnimator="@null"
-        android:text="<"
-        android:textColor="#ffffff"
-        android:textSize="24dp"
-        android:fontFamily="@font/bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView13"
