@@ -1,5 +1,6 @@
 package com.example.administratorweiez_1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -63,6 +64,8 @@ public class SignUpActivity extends AppCompatActivity {
                                             .create();
                                     dialog.show();
                                     finish();
+                                    Intent intent = new Intent(SignUpActivity.this,ShopJoinActivity.class);
+                                    startActivity(intent);
 
 
                                 } else {
