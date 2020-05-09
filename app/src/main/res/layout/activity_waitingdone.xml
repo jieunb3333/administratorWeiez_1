@@ -45,12 +45,12 @@
         app:layout_constraintVertical_bias="0.496">
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/waitingdone_shoptitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="shop"
-            android:drawableBottom="@drawable/slicebar"
+            android:textStyle="italic"
+            android:background="@drawable/shopnameback"
             android:fontFamily="@font/bold"
             android:gravity="center"
             android:text="WEIEZ RESTAURANT"
